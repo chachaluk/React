@@ -1,0 +1,53 @@
+#pagination{
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(194, 215, 255);
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.page{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+
+.page{
+    border: 1px solid gray;
+    text-decoration: underline;
+}
+
+.pageBtn{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+
+    border: 1px solid gray;
+    text-decoration: underline;
+}
+
+.page:hover, .page:active{
+    color:#fff;
+    border:1px solid rgb(174, 131, 255);
+    background-color: rgb(174, 131, 255);
+}
+
+.pageBtn:hover{
+    color:#fff;
+    border:1px solid rgb(174, 131, 255);
+    background-color: rgb(174, 131, 255);
+}
